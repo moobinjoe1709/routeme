@@ -1,0 +1,14 @@
+{
+    "name": "RouteMe",
+    "short_name": "RouteMe",
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "homescreen.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
