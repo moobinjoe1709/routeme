@@ -19,4 +19,15 @@ Route::get('/', function () {
 
 Auth::routes();
 
+
+Route::get('/clc', function() {
+
+    Artisan::call('cache:clear');
+    Artisan::call('config:clear');
+    Artisan::call('config:cache');
+    Artisan::call('view:clear');
+        // Artisan::call('view:clear');
+        // session()->forget('key');
+    return "Cleared!";
+});
 Route::get('/home', 'HomeController@index')->name('home');
