@@ -3,7 +3,8 @@
     "short_name": "RouteMe",
     "lang": "en-US",
     "start_url": "/",
-    "display": "fullscreen",
+    "display": "standalone",
+    "theme_color": "#FF5733",
     "icons": [
       {
         "src": "homescreen.png",
