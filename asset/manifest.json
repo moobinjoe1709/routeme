@@ -1,10 +1,12 @@
 {
     "name": "RouteMe",
-    "short_name": "RouteMe",
+    "short_name": "RouteMe2",
+    "description": "Everywhere with me",
     "lang": "en-US",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#FF5733",
+    "background_color": "#FF5733",
     "icons": [
       {
         "src": "homescreen.png",
