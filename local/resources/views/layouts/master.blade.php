@@ -30,8 +30,8 @@
         <meta name="msapplication-starturl" content="/">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-        <link rel="icon" type="image/png" sizes="192x192" href="{{url('images/homescreen.png')}}">
-        <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="{{url('images/homescreen.png')}}">
+        <link rel="icon" type="image/png" sizes="192x192" href="{{url('asset/homescreen.png')}}">
+        <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="{{url('asset/homescreen.png')}}">
 
 
         @yield('css')
@@ -43,7 +43,7 @@
                 <div class="row">
                     <div class="col-6 col-md-12">
                         <a class="navbar-brand" href="{{ url('/') }}">
-                            <img src="{{asset('images/journeys_logoweb.png')}}" width="50%"/>
+                            <img src="{{asset('images/journeys_logoweb.png')}}" width="35%"/>
                             {{-- {{ config('app.name', 'Laravel') }} --}}
                         </a>
                       
